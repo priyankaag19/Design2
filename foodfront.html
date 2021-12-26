@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: arial;
+background-color:#f8f8ff		;
+}
+
+.sidenav {
+  width: 130px;
+  position:fixed;
+  z-index: 1;
+  top: 20px;
+  left: 30px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size:15px;
+  color: #a9a9a9;
+  display: block;
+    line-height: 2.9;
+}
+
+h2{
+    line-height:1.2;
+	  margin-left: 17px;
+	 margin-top:20px;
+}
+
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.button:hover {
+  background-color: #064579;
+}
+
+.button {
+  background-color: #ff6347	;
+  border: none;
+  color: white;
+  padding: 8px;
+  width:99px;
+    height:40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 9px 8px;
+  cursor: pointer;
+  border-radius:20px;
+  	  margin-left: 17px;
+	  position:fixed;
+  bottom:85px;
+}
+
+.left{
+  text-decoration: line-through;
+  padding: 6px 8px 6px 16px;
+  color: #a9a9a9;
+  text-decoration-color:#ff6347;
+}
+
+hr{
+width:7%;
+height:2px;
+  border-radius:5px;
+  color:#ff6347	;
+  background-color:#ff6347;
+  position:relative;
+margin-left:620px;
+top:-195px;
+}
+
+h3{
+font-size:14px;
+
+}
+
+.right{
+  font-size: 18px;
+position:relative;
+margin-left:620px;
+top:-195px;
+  color: #a9a9a9;
+}
+
+#main {
+  margin-left: 240px;
+  font-size: 28px;
+  padding: 0px 10px;
+line-height:1.4;
+top:58px;
+position:relative;
+}
+
+
+.container{
+max-width:1170px;
+width:970px;
+  margin:0 auto;
+  display:flex;
+  column-count: 5;
+  column-gap:28px;
+	  padding:20px; 
+height:210px;
+margin-left:237px;
+margin-top:-80px;
+}
+
+.column{
+margin:0 15px 25 px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+  0 1px 2px rgba(0,0,0, 0.24);
+  flex-basis:30%;
+    background-color:white;  
+    border-radius: 20px;
+}
+
+.card {
+  padding: 15px 25px;
+  text-align: center;   
+  }
+  
+  
+img {
+  padding: 2px;
+  width: 40px;
+    border-radius: 50%;
+  }
+
+
+</style>
+</head>
+<body>
+
+
+<div class="sidenav">
+  <h2>Lorem<br>Ipsum</h2>
+  <p class="left">About</p>
+  <a href="#services">Services</a>
+  <a href="#clients">Cuisine</a>
+    <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+    <a href="#books"> Book</a>
+	<button class="button">Cart</button>
+</div>
+
+<div id="main">
+  <h1>What are you<br> having for Lunch?</h1>
+  <p class="right">Lorem ipsum dolor sit amet,<br>
+  consectetur adipscing elit,<br>
+  sed do eiusmod tempor<br>
+  incididunt ut labore et.</p>
+  <hr>
+</div> 
+
+
+<div class="container">
+  <div class="column">
+  <div class="card">
+  <img src="./images/mytacos.jpg" alt="Denim Jeans" style="width:100%">
+  <h3>Mexican Taco</h3>
+</div>
+</div>
+
+<div class="column">
+  <div class="card">
+  <img src="./images/pizzaas.jpg" alt="Denim Jeans" style="width:100%">
+  <h3>Farmhouse Pizza</h3>
+</div>
+</div>
+
+<div class="column">
+  <div class="card">
+  <img src="./images/myburger.jpg" alt="Denim Jeans" style="width:100%">
+  <h3>Chicken Burger</h3>
+</div>
+</div>
+
+<div class="column">
+  <div class="card">
+  <img src="./images/nachos.jpg" alt="Denim Jeans" style="width:100%">
+  <h3>Loaded Nachos</h3>
+</div>
+</div>
+
+<div class="column">
+  <div class="card">
+  <img src="./images/hakkas.jpg" alt="Denim Jeans" style="width:100%">
+  <h3>Hakka Noodles</h3>
+</div>
+</div>
+
+
+
+</body>
+</html> 
